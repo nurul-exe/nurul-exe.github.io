@@ -45,6 +45,13 @@ export function Certificates() {
       image:
         "https://white-secondary-jay-146.mypinata.cloud/ipfs/bafybeihqjiqgh7glgq63xiaopwb2u7vj3q6zuatkq5befhd5resx7dwfhu/6.png",
     },
+    {
+      title: "Celonis Process Mining",
+      provider: "Celonis Academy",
+      year: "2025",
+      image:
+        "https://white-secondary-jay-146.mypinata.cloud/ipfs/bafkreibxfscbmy5uuynlcyeslwffrc257nny3xqj74ut737u46cczzvmym",
+    }
   ];
 
   return (

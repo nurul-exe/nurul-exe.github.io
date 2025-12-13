@@ -15,7 +15,7 @@ export function Projects() {
         "A traditional website built with HTML/CSS and JavaScript, featuring Bootstrap 5 framework, a WhatsApp API and a handcrafted UI.",
       image: project1,
       link: "https://github.com/asif1711/internship_online_store", // ✅ unique link
-      tags: ["HTML", "CSS", "JavaScript"],
+      tags: ["HTML", "CSS", "JavaScript","Prototype"],
     },
     {
       title: "Ecommerce Tea Store",
@@ -23,7 +23,7 @@ export function Projects() {
         "Complete UI/UX design for a website, from wireframes to high-fidelity prototypes. Back-end support with transport and online payment logistics.",
       image: project2,
       link: "https://github.com/asif1711/ecom_website", // ✅ another unique link
-      tags: ["UI/UX", "Prototype", "Back-end", "API"],
+      tags: ["UI/UX", "Back-end", "API"],
     },
     {
       title: "VIP Event Access Portal",
@@ -56,7 +56,7 @@ export function Projects() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="relative grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -81,8 +81,8 @@ export function Projects() {
                   }}
                 />
 
-                {/* External link icon for visual cue */}
-                <div className="absolute top-2 right-2 p-2 rounded-full bg-black/40 hover:bg-black/60 transition-all">
+                {/* External link icon */}
+                <div className="absolute top-2 right-3 z-20 p-2 rounded-full bg-black/40 hover:bg-black/60 transition-all">
                   <ExternalLink
                     size={18}
                     className="text-[#00ff00] glow transition-transform duration-200 group-hover:scale-110 hover:animate-pulse"
