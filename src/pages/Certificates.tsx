@@ -11,6 +11,20 @@ export function Certificates() {
         "https://white-secondary-jay-146.mypinata.cloud/ipfs/bafybeihqjiqgh7glgq63xiaopwb2u7vj3q6zuatkq5befhd5resx7dwfhu/1.png",
     },
     {
+      title: "Java Full Stack",
+      provider: "EduSkills Academy",
+      year: "2026",
+      image:
+        "https://white-secondary-jay-146.mypinata.cloud/ipfs/bafybeifrhopeacajcwhzaj2uc4l4k7j52ls3egraasa3rb6bdt46b2nj7i",
+    },
+    {
+      title: "Web Design & Development",
+      provider: "NSDC",
+      year: "2025",
+      image:
+        "https://white-secondary-jay-146.mypinata.cloud/ipfs/bafkreialtmuxpmwh24mzqikdsliivy2i66464bacgxl72scmkmbc2hbwym",
+    },
+    {
       title: "AWS Cloud Foundations",
       provider: "AWS Academy",
       year: "2025",
