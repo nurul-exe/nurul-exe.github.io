@@ -1,7 +1,11 @@
 import { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
-export function Hero() {
+type HeroProps = {
+  mobileMenuOpen: boolean;
+};
+
+export function Hero({ mobileMenuOpen }: HeroProps)  {
   const [displayText, setDisplayText] = useState("");
   const [commandInput, setCommandInput] = useState("");
   const [commandHistory, setCommandHistory] = useState<string[]>([]);
@@ -76,10 +80,12 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative z-40 flex flex-col items-center justify-center w-full text-center px-4 sm:px-6 overflow-hidden"
+      className={`relative flex flex-col items-center w-full text-center px-4 sm:px-6 overflow-hidden transition-all duration-300 ${
+  mobileMenuOpen ? "mt-40 md:mt-0" : ""
+}`}
       style={{
         minHeight: "calc(100vh - 80px)",
-        marginTop: "60px",
+        paddingTop: "30px",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",

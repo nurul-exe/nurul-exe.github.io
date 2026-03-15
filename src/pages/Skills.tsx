@@ -7,13 +7,13 @@ export function Skills() {
       icon: <Code size={20} />,
       title: "DEVELOPMENT",
       items: [
-        "Python",
-        "HTML/CSS/JavaScipt",
+        "Python/R",
+        "HTML/CSS/JavaScript",
+        "PHP",
+        "React/TypeScript",
         "C/C++",
         "Java",
         "SQL",
-        "React",
-        "PHP",
         "Assembly",
       ],
     },
@@ -32,12 +32,12 @@ export function Skills() {
     {
       icon: <Smartphone size={20} />,
       title: "MOBILE APP DEV",
-      items: ["Android Studio", "Android Modding"],
+      items: ["Android Studio","React Native"],
     },
     {
       icon: <Zap size={20} />,
       title: "TOOLS",
-      items: ["Vitual Machines", "Git", "Docker", "AWS"],
+      items: ["Virtual Machines", "Git", "Docker", "AWS"],
     },
   ];
 
